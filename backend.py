@@ -36,6 +36,7 @@ print("\nDiscount:", amazon_discount)
 print("\n---------------------------------------------------------------------------\n\n")
 
 # Fetch Flipkart details
+flipkart_url = input("Enter the Flipkart URL: ")
 # flipkart_name, flipkart_price, flipkart_discount = get_flipkart_details(flipkart_url)
 # print("Flipkart:")
 # print("Name:", flipkart_name)
