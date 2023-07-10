@@ -17,6 +17,6 @@ from telegram import Bot
 '''STREAMLIT CODE'''
 
 async def send_telegram_message(msg:str):
-    bot = Bot(token=ST.secrets['token'])
+    bot = Bot(token=st.secrets['token'])
     updater = Updater(bot=bot, update_queue=True)
     await bot.send_message(chat_id=st.secrets['chat_id'],text=msg)
